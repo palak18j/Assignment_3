@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+   android:orientation="vertical"
+
+    android:background="@drawable/bg5"
+    >
+ <EditText
+            android:id="@+id/s_roll_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_roll"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:cursorVisible="true"
+            android:layout_marginTop="20dp"
+            />
+  <EditText
+            android:id="@+id/s_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:inputType="text"
+            android:hint="@string/hint_name"
+            android:ems="10"
+            android:cursorVisible="true"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:id="@+id/s_marks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_marks"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:cursorVisible="true"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/s_sem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:hint="@string/hint_semester"
+            android:ems="10"
+            android:inputType="text"
+            android:cursorVisible="true"
+            android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp">
+        <Button
+            android:id="@+id/Add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button_border1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:id="@+id/delete"
+            android:text="@string/Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border1"
+
+            android:layout_marginRight="5dp"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Update"
+            android:background="@drawable/button_border1"
+
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/Load"
+        android:text="@string/load"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_border1"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
